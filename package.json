@@ -1,0 +1,38 @@
+{
+  "name": "n8n-hubspot-inactive-deal-revival-engine",
+  "version": "1.0.0",
+  "description": "n8n pipeline re-engagement workflow: finds open HubSpot deals with no logged calls, emails or meetings in 30 days, moves them to a Stalled stage, creates a rep follow-up task and enrolls the primary contact in a re-engagement sequence.",
+  "private": true,
+  "license": "MIT",
+  "author": "DH Robin <https://dhrobinsystems.com> (dhRobin Systems)",
+  "homepage": "https://github.com/dhrobinsystems/n8n-hubspot-inactive-deal-revival-engine#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhrobinsystems/n8n-hubspot-inactive-deal-revival-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhrobinsystems/n8n-hubspot-inactive-deal-revival-engine/issues"
+  },
+  "keywords": [
+    "n8n",
+    "hubspot",
+    "pipeline-hygiene",
+    "deal-revival",
+    "sales-sequences",
+    "revops",
+    "automation"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/inactiveDealEngine.js",
+  "scripts": {
+    "test": "node --test --test-reporter=spec",
+    "lint": "node scripts/lint.js",
+    "build": "node scripts/build-workflow.js",
+    "check": "node scripts/build-workflow.js --check",
+    "verify": "npm run lint && npm test && npm run check"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
