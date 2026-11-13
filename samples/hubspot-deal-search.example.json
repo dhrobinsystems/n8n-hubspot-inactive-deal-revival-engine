@@ -1,0 +1,11 @@
+{
+  "_comment": "Fictional HubSpot CRM search response for tests and dry runs. IDs are placeholders; timestamps are relative to 2026-11-13T00:00:00Z.",
+  "total": 5,
+  "results": [
+    { "id": "1001", "properties": { "dealname": "Sample Co - Platform Expansion", "dealstage": "presentationscheduled", "pipeline": "default", "hubspot_owner_id": "501", "amount": "25000", "createdate": "2026-06-01T09:00:00.000Z", "hs_is_closed": "false", "notes_last_contacted": "2026-09-20T15:30:00.000Z" } },
+    { "id": "1002", "properties": { "dealname": "Example Org - Pilot", "dealstage": "qualifiedtobuy", "pipeline": "default", "hubspot_owner_id": "", "amount": "8000", "createdate": "2026-08-01T09:00:00.000Z", "hs_is_closed": "false", "notes_last_contacted": null } },
+    { "id": "1003", "properties": { "dealname": "Demo Ltd - Renewal Upsell", "dealstage": "contractsent", "pipeline": "default", "hubspot_owner_id": "502", "amount": "12000", "createdate": "2026-05-15T09:00:00.000Z", "hs_is_closed": "false", "notes_last_contacted": "2026-11-01T10:00:00.000Z" } },
+    { "id": "1004", "properties": { "dealname": "Placeholder Inc - Closed Deal", "dealstage": "closedwon", "pipeline": "default", "hubspot_owner_id": "501", "amount": "5000", "createdate": "2026-03-01T09:00:00.000Z", "hs_is_closed": "true", "notes_last_contacted": "2026-08-01T10:00:00.000Z" } },
+    { "id": "1001", "properties": { "dealname": "Sample Co - Platform Expansion (duplicate row)", "dealstage": "presentationscheduled", "pipeline": "default", "hubspot_owner_id": "501", "amount": "25000", "createdate": "2026-06-01T09:00:00.000Z", "hs_is_closed": "false", "notes_last_contacted": "2026-09-20T15:30:00.000Z" } }
+  ]
+}

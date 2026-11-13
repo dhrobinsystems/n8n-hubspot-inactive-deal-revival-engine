@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE",
+  "results": [
+    { "id": "2001", "properties": { "email": "jane.doe@example.com", "firstname": "Jane", "hs_email_optout": "false", "hs_sequences_is_enrolled": "false" } },
+    { "id": "2002", "properties": { "email": "john.sample@example.org", "firstname": "John", "hs_email_optout": "false", "hs_sequences_is_enrolled": "false" } },
+    { "id": "2003", "properties": { "email": "opted.out@example.net", "firstname": "Alex", "hs_email_optout": "true", "hs_sequences_is_enrolled": "false" } }
+  ]
+}

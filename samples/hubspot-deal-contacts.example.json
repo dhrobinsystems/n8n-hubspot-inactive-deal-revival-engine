@@ -1,0 +1,7 @@
+{
+  "results": [
+    { "toObjectId": 2001, "associationTypes": [{ "category": "HUBSPOT_DEFINED", "typeId": 3, "label": null }] },
+    { "toObjectId": 2002, "associationTypes": [{ "category": "HUBSPOT_DEFINED", "typeId": 3, "label": null }, { "category": "USER_DEFINED", "typeId": 12, "label": "Decision Maker" }] },
+    { "toObjectId": 2003, "associationTypes": [{ "category": "HUBSPOT_DEFINED", "typeId": 3, "label": null }] }
+  ]
+}
