@@ -35,6 +35,7 @@ Built and maintained by **DH Robin** ([dhRobin Systems](https://dhrobinsystems.c
 
 ## Pipeline Architecture
 
+
 The workflow automates deal inactivity triage, stage updates, task creation, and contact re-engagement as visualized below:
 
 ![n8n HubSpot Deal Revival Architecture](assets/n8n-hubspot-deal-revival-architecture.png)
